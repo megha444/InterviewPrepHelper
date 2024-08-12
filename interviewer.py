@@ -86,24 +86,3 @@ def get_bot_response():
     
 if __name__ == "__main__":
   app.run(debug = True)
-
-'''while message!="NO":
-    response = chat_session.send_message(message)
-    ai_response = response.text
-    message = input(ai_response)
-    '''
-    
-# TODO: Enter and Cmd + enter for new line text input
-# Role, level, skills, and company modification
-# Enter button, end chat button, export chat history, suggestions for topics to review
-# Longer input on new line
-# Format generated text for bullets and lists
-# Space under text input 
-# Full page scrolling nahi, I want Title to stay and only chatbox to scroll
-# Stream output?
-# Give resources to study from
-# Suggestions on what to study or work on
-# Multimodal input
-# Any use for webscraping? Go through top 10 websites for that topic, get all distinct questions and the best answer from them all
-# when I was studying same 15-20 questions were repeated everywhere, indicating those are most important. So generate a list of those
-# Generate mock test
